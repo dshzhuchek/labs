@@ -26,8 +26,7 @@ def f3():
         i = str(i)
         img = Image.open(i + '.jpg')
         img = img.filter(ImageFilter.EMBOSS)
-        k='k'+i
-        img.save("D:\питон\pics\k.jpg")
+        img.save("D:\питон\pics\img" + i + ".jpg")
 
 def f4():
     from PIL import Image
@@ -36,7 +35,7 @@ def f4():
     img.paste(wm, (300,230), wm)
     img.save('imgwm.jpg')
 
-f4()
+f3()
 
 
 
