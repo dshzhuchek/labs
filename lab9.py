@@ -34,4 +34,3 @@ def h3():
             itog+=kolvo*cn
             print(name,'-',kolvo, ' шт. за',cn,' руб.')
     print("Итоговая сумма: ", itog)
-h3()
